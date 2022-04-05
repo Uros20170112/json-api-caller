@@ -1,4 +1,4 @@
-package rs.ac.bg.fon.np.son_api_caller;
+package rs.ac.bg.fon.np.json_api_caller.bank;
 
 import com.google.gson.annotations.SerializedName;
 
@@ -17,6 +17,17 @@ public class Bank {
 	
 	@SerializedName("type")
 	private String type;
+	
+	@SerializedName("url")
+	private String url;
+
+	public String getUrl() {
+		return url;
+	}
+
+	public void setUrl(String url) {
+		this.url = url;
+	}
 
 	public String getBank_name() {
 		return bank_name;
@@ -58,13 +69,13 @@ public class Bank {
 		this.type = type;
 	}
 
-	public Bank(String bank_name, int bin, String country, String scheme, String type) {
-		super();
+	public Bank(String bank_name, int bin, String country, String scheme, String type, String url) {
 		this.bank_name = bank_name;
 		this.bin = bin;
 		this.country = country;
 		this.scheme = scheme;
 		this.type = type;
+		this.url = url;
 	}
 
 	public Bank() {
@@ -74,7 +85,7 @@ public class Bank {
 	@Override
 	public String toString() {
 		return "Bank [bank_name=" + bank_name + ", bin=" + bin + ", country=" + country + ", scheme=" + scheme
-				+ ", type=" + type + "]";
+				+ ", type=" + type + ", url=" + url + "]";
 	}
 	
 

@@ -1,0 +1,34 @@
+[
+  {
+    "bank_name": "Banka1",
+    "bin": 123456,
+    "country": "Serbia",
+    "scheme": "Visa",
+    "type": "Debit",
+    "url": "url1"
+  },
+  {
+    "bank_name": "Banka2",
+    "bin": 111111,
+    "country": "USA",
+    "scheme": "Visa",
+    "type": "Credit",
+    "url": "url2"
+  },
+  {
+    "bank_name": "Banka3",
+    "bin": 122223,
+    "country": "Canada",
+    "scheme": "Mastercard",
+    "type": "Debit",
+    "url": "url3"
+  },
+  {
+    "bank_name": "Banka4",
+    "bin": 133344,
+    "country": "France",
+    "scheme": "MaestoCard",
+    "type": "Credit",
+    "url": "url4"
+  }
+]
