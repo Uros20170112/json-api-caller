@@ -1,0 +1,8 @@
+{
+  "bank_name": "Bank1",
+  "bin": 111222,
+  "country": "Serbia",
+  "scheme": "Visa",
+  "type": "Debit",
+  "url": "url"
+}
